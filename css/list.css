@@ -1,0 +1,151 @@
+body,html{
+    font-family: 'Lato' , sans-serif;
+    background-color: rgb(234,235,237);
+    
+}
+a:active{
+   color:#000!important;
+   text-decoration: none;
+    
+}
+a:hover{
+   color:#000!important;
+   text-decoration: none;
+   font-weight:1000;
+   border-bottom:1px solid #000;
+   padding-bottom:5px;
+}
+a{
+   color:#000!important;
+   text-decoration: none;
+}
+header{
+    background-image:linear-gradient(to bottom, #337ab7 0%, #265a88 100%);
+    padding-left:0 !important;
+    paading-right:0 !important;
+    box-shadow: 1px 1px  1px #000;
+    position:fixed;
+    width:100%;
+    max-width:100%;
+    z-index:9999999;
+}
+#logo{
+    font-family: 'Ubuntu', sans-serif;
+    color:white;
+}
+#search-panel input{ 
+    position:relative;
+    top:3px;
+}
+
+#search-panel button{
+    height: 35px;
+    position: relative;
+    top: 2px;
+}
+#head_list li{
+    display:inline-block;
+    clear:both;
+    margin-left:2%;
+}
+
+#head_list{
+    position:relative;
+    top:8px;
+    color:#000 !important;
+    
+}
+#head_list li a {
+    color:white !important;
+    cursor: pointer;
+    letter-spacing: 1.2px;
+}
+#head_list li a:hover {
+    color:white !important;
+    cursor: pointer;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+}
+#head_list li a:active {
+    color:white !important;
+    cursor: pointer;
+    letter-spacing: 1.2px;
+}
+#head_last a {
+    color:white;
+    cursor: pointer;
+    letter-spacing: 1.2px;
+    position:relative;
+    top:8px;
+    
+}
+#head_last li{
+    display:inline-block;
+    clear:both;
+    margin-left:20px;
+}
+section{
+    width:70%;
+    margin:0 auto;
+}
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card {
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-clip: padding-box;
+  width:20%;
+}
+.card span.card-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.card .card-image {
+  position: relative;
+  overflow: hidden;
+}
+.card .card-image img {
+  border-radius: 2px 2px 0 0;
+  background-clip: padding-box;
+  position: relative;
+  z-index: -1;
+}
+.card .card-image span.card-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 16px;
+}
+.card .card-content {
+  padding: 16px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.card .card-content p {
+  margin: 0;
+  color: inherit;
+}
+.card .card-content span.card-title {
+  line-height: 48px;
+}
+.card .card-action {
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  padding: 16px;
+}
+.card .card-action a {
+  color: #ffab40;
+  margin-right: 16px;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+}
+.card .card-action a:hover {
+  color: #ffd8a6;
+  text-decoration: none;
+}

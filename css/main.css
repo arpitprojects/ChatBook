@@ -1,0 +1,32 @@
+header{
+    background-image:linear-gradient(to bottom, #337ab7 0%, #265a88 100%);
+    padding-left:0 !important;
+    paading-right:0 !important;
+    box-shadow: 1px 1px  1px #000;
+}
+#logo{
+    font-family: 'Ubuntu', sans-serif;
+    color:white;
+}
+body,html{
+    
+    font-family: 'Lato', sans-serif;
+    color:white;
+}
+#front-image{
+    
+}
+section{
+   
+    padding-left:0 !important;
+    paading-right:0 !important;
+    color:#000;
+}
+@media all and (max-width:771px){
+    #front-image{
+        display:none;
+    }
+}
+input{
+    border-color:#000 !important;
+}
